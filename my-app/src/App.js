@@ -1,25 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactUI from './Components/text.mjs';
+import TextForm from './Components/TextForm.mjs';
+import Navbar from './Components/Navbar.mjs';
+
+import { useState } from 'react';
+
+
+
 
 function App() {
-  return (
+
+  const [mode , setmode ] = useState('light');
+
+  const centralToggleButton = () => {
+    if (mode === 'light'){
+      setmode('dark');
+    }
+
+     else {
+      setmode('light');
+     }
+    }
+
+      return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar mode={mode} centralToggleButton={centralToggleButton} > </Navbar>
+      {/* <ReactUI name="chandan koranga" framework="react"/> */}
+      <TextForm mode={mode} />
+
     </div>
+
+
   );
-}
+
+  }
+
+
+
+
 
 export default App;
