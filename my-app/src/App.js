@@ -3,7 +3,6 @@ import './App.css';
 import ReactUI from './Components/text.mjs';
 import TextForm from './Components/TextForm.mjs';
 import Navbar from './Components/Navbar.mjs';
-
 import { useState } from 'react';
 
 
@@ -11,30 +10,52 @@ import { useState } from 'react';
 
 function App() {
 
-  const [mode , setmode ] = useState('light');
+  const DarkMode = 'black';
+  const NormalMode = 'white';
 
-  const centralToggleButton = () => {
-    if (mode === 'light'){
-      setmode('dark');
+  const [btnText, changeText] = useState("Enable Dark Mode");
+  const [currentMode, modeChange] = useState({ color : DarkMode, backgroundColor: NormalMode,});
+
+
+  let togglebutton = () => {
+    if (currentMode.color === DarkMode) {
+      modeChange({
+        color: NormalMode,
+        backgroundColor: DarkMode
+
+      })
+      changeText("Enable Light mode");
+      document.body.style.backgroundColor = DarkMode
+      
     }
 
-     else {
-      setmode('light');
-     }
-    }
+    else {
+      modeChange({
+        color: DarkMode,
+        backgroundColor: NormalMode
 
-      return (
+      })
+      changeText("Enable Dark mode");
+      document.body.style.backgroundColor = NormalMode
+      
+
+    }
+  }
+
+
+
+  return (
     <div className="App">
-      <Navbar mode={mode} centralToggleButton={centralToggleButton} > </Navbar>
-      {/* <ReactUI name="chandan koranga" framework="react"/> */}
-      <TextForm mode={mode} />
+      <Navbar inputMode={currentMode}  stylemode={currentMode.backgroundColor === DarkMode ? 'dark' : 'light'} > </Navbar>
+      <button type="button" className={`btn btn-${currentMode.backgroundColor === DarkMode ? 'light' : 'dark'} my-5`} onClick={togglebutton} > {btnText} </button>
+      <TextForm stylemode={currentMode} />
 
     </div>
 
 
   );
 
-  }
+}
 
 
 
