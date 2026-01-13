@@ -54,7 +54,7 @@ export default function TextForm(props) {
 
             <div>
                 <h1 className='my-3' > Meaured Data </h1>
-                <p>The Number of Words is {currenttext.split(" ").length}</p>
+                <p>The Number of Words is {currenttext.split(" ").filter((element)=>{return element.length!=0}).length}</p>
                 <p>The Number charactors is  {currenttext.length}</p>
                 <p>All the Palidrome words are : {currentpalidrome.join(", ")}</p>
             </div>

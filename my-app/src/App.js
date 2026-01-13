@@ -51,7 +51,7 @@ function App() {
       <Navbar inputMode={currentMode} stylemode={currentMode.backgroundColor === DarkMode ? 'dark' : 'light'} > </Navbar>
       <button type="button" className={`btn btn-${currentMode.backgroundColor === DarkMode ? 'light' : 'dark'} my-5`} onClick={togglebutton} > {btnText} </button>
       <Routes>
-        <Route  path="/" element={<TextForm stylemode={currentMode} />}/>
+        <Route index element={<TextForm stylemode={currentMode} />}/>
         <Route  path="/about" element={<AboutUS stylemode={currentMode}  />}/>
       </Routes>
 
