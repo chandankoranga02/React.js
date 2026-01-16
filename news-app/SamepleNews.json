@@ -1,0 +1,85 @@
+{
+    "status": "ok",
+    "totalResults": 6,
+    "articles": [
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Perry Stein",
+            "title": "Top prosecutors in D.C., Minneapolis leave amid turmoil over shooting probe - The Washington Post",
+            "description": "Prosecutors resigned from the U.S. attorney’s office in Minnesota amid turmoil over an investigation into a shooting by an immigration officer.",
+            "url": "https://www.washingtonpost.com/national-security/2026/01/13/justice-department-civil-rights-resignations/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IUURRC2B4B2WW77EQTVXM7NUGY_size-normalized.jpg&w=1440",
+            "publishedAt": "2026-01-14T05:53:39Z",
+            "content": "Multiple senior prosecutors in Washington and Minnesota are leaving their jobs amid turmoil over the Trump administrations handling of the shooting death of a Minneapolis woman.\r\nThe departures inclu… [+204 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Harriet Torry",
+            "title": "Pace of Inflation Held Steady in December; Consumer Prices Up 2.7% on Year - The Wall Street Journal",
+            "description": "Groceries and restaurant meals had large price increases over the month, while gasoline costs and used-car prices declined",
+            "url": "https://www.wsj.com/economy/consumer-price-index-inflation-december-2025-5e292092",
+            "urlToImage": "https://images.wsj.net/im-23297504/social",
+            "publishedAt": "2026-01-14T05:51:48Z",
+            "content": "Inflation remained relatively contained at the close of 2025 despite turbulence from tariffs, giving the Federal Reserve some breathing room as it weighs the threat of price pressures against a cooli… [+335 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "Charlotte Graham-McLay",
+            "title": "Adelaide Writers Week canceled as 180 speakers withdraw after the exclusion of a Palestinian writer - AP News",
+            "description": "Organizers of Australia’s largest free literary festival have canceled the weeklong event after most writers withdrew over the removal of an Australian Palestinian writer. The board of the Adelaide Festival disinvited Dr. Randa Abdel-Fattah, citing cultural s…",
+            "url": "https://apnews.com/article/adelaide-writers-week-festival-bondi-randa-abdelfattah-ea353861a4a466b76c8ebd689441f33c",
+            "urlToImage": "https://dims.apnews.com/dims4/default/aee1484/2147483647/strip/true/crop/6000x3375+0+312/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F43%2Ff3%2F59783c393810cd4b3702f0feca3d%2F99e1720f443b431fbab4231fab27f800",
+            "publishedAt": "2026-01-14T05:22:00Z",
+            "content": "WELLINGTON, New Zealand (AP) Organizers of Australias largest free literary festival canceled the event Tuesday after more than 180 writers and speakers withdrew over the scrapping of an appearance b… [+5549 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Joe  Walsh",
+            "title": "7 highlights from Trump's interview with CBS News: Iran, Renee Good, Jerome Powell and his own morality - CBS News",
+            "description": "Here are the major takeaways from President Trump's interview with \"CBS Evening News\" anchor Tony Dokoupil on Iran, Renee Good, the Federal Reserve and more.",
+            "url": "https://www.cbsnews.com/news/highlights-trump-interview-with-cbs-news-dokoupil-iran-renee-good-jerome-powell/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/01/13/382f43d8-779f-4aa8-890c-ad1fdffa2376/thumbnail/1200x630/f210f242c8d0c13ed91c1be53e1c7a3e/trump3.jpg",
+            "publishedAt": "2026-01-14T02:01:00Z",
+            "content": "In an interview with CBS News, President Trump issued a warning to Iran, weighed in on the ICE shooting in Minneapolis — and reiterated he believes his power as president is primarily limited by his … [+7508 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NBCSports.com"
+            },
+            "author": "Charean Williams",
+            "title": "Steve Bisciotti: My instincts told me this was the time to fire John Harbaugh - NBC Sports",
+            "description": "The Ravens owner talked to several star players, including Lamar Jackson, before making his decision.",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steve-bisciotti-my-instincts-told-me-this-was-the-time-to-fire-john-harbaugh",
+            "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/743e610/2147483647/strip/true/crop/3300x1856+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F89%2F54%2Ffdf63ede44c2a32d29453d3866b4%2Fhttps-api-imagn.com%2Frest%2Fdownload%2FimageID%3D9563978",
+            "publishedAt": "2026-01-14T01:40:55Z",
+            "content": "Ravens owner Steve Bisciotti began considering a coaching change late in the season and broached the possibility to General Manager Eric DeCosta. The day after the season-opening loss to the Steelers… [+1427 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NBCSports.com"
+            },
+            "author": "Mike Florio",
+            "title": "The Bills-Broncos line has already moved by three points, with Denver now the favorite - NBC Sports",
+            "description": "Like last week, the Bills opened as 1.5-point road playoff favorites.",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-bills-broncos-line-has-already-moved-by-three-points-with-denver-now-the-favorite",
+            "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/bca52be/2147483647/strip/true/crop/5486x3086+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff8%2Fa8%2F6e9df0a5445183ee900945e08f3f%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2255476297",
+            "publishedAt": "2026-01-14T01:27:15Z",
+            "content": "Like last week, the Bills opened as 1.5-point road playoff favorites. Like last week, the line has moved to the home team.\r\nOn DraftKings, the Broncos are now 1.5-point favorites over Buffalo for Sat… [+559 chars]"
+        }
+
+    ]
+}
